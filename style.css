@@ -67,7 +67,7 @@ header button:hover{
     background: transparent;
     z-index: 999;
     width: 100%;
-    height: 70px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0px;
@@ -376,27 +376,16 @@ header ul button{
 .skil{
     margin-top: 40px;
 }
+.bgc nav{
+    border-bottom: 0px;
+}
 .bgc{
     background: #0a0f1a;
     padding: 10px 0px;
+    border-bottom: 1px solid #00d9ff;
 }
 .bgc .logo{
     color: #070a0f;
-}
-label #btn, #cancel{
-    display: none;
-    color: white;
-    font-size: 35px;
-    position: absolute;
-    right: 40px;
-    top: 90px;
-    background: black;
-    border-radius: 50%;
-    box-shadow: 0 0 4px white;
-    transition: 1s;
-}
-#check{
- display: none;
 }
 
 
