@@ -13,15 +13,21 @@ body{
 }
 header nav{
     width: 85%;
-    margin: auto;
+    margin: 0px 100px;
     display: flex;
     padding: 10px 0px;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     border-bottom: 0.1px solid white;
+    top: 0;
+    
+    left: 0;
     
 }
+
 header{
+
     background-color: #0F1624;
     
 }
@@ -56,6 +62,15 @@ header button:hover{
     background: transparent;
     color: white;
     box-shadow: 0px 0px 3px white;
+}
+.back{
+    background: transparent;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0px;
 }
 header ul button{
     margin: 2px 0px;
@@ -361,6 +376,30 @@ header ul button{
 .skil{
     margin-top: 40px;
 }
+.bgc{
+    background: #0a0f1a;
+    padding: 10px 0px;
+}
+.bgc .logo{
+    color: #070a0f;
+}
+label #btn, #cancel{
+    display: none;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 40px;
+    top: 90px;
+    background: black;
+    border-radius: 50%;
+    box-shadow: 0 0 4px white;
+    transition: 1s;
+}
+#check{
+ display: none;
+}
+
+
 @media screen and (max-width:1100px) {
     .skil{
         grid-template-columns: auto auto;
@@ -380,14 +419,20 @@ header ul button{
     
 }
 @media screen and (max-width:1000px) {
+   
     .teks{
         display: block;
         text-align: center;
         justify-content: center;
         padding-top: 20px;
     }
+   
     nav ul li a{
         display: none;
+    }
+    
+    header nav{
+        margin: 0px 80px;
     }
 }
 @media screen and (max-width:950px) {
@@ -409,12 +454,17 @@ header ul button{
     .skil{
         grid-template-columns: auto;
     }
-    
+    header nav{
+        margin: 0px 60px;
+    }
 }
 @media screen and (max-width:660px) {
     .icons{
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+    header nav{
+        margin: 0px 50px;
     }
     
 }
@@ -422,6 +472,14 @@ header ul button{
     .text p{
         font-size: 26px;
     }
+    
+    
+}
+@media screen and (max-width:550px) {
+    header nav{
+        margin: 0px 45px;
+    }
+    
     
 }
 @media screen and (max-width:470px) {
@@ -431,6 +489,10 @@ header ul button{
     .image img{
         max-width: 100%;
     }
+    header nav{
+        margin: 0px 38px;
+    }
+    
     
 }
 @media screen and (max-width:375px) {
@@ -443,6 +505,10 @@ header ul button{
     .image ion-icon{
         font-size: 200px;
     }
+    header nav{
+        margin: 0px 30px;
+    }
+    
 }
 @media screen and (max-width:360px) {
     .abt img{
@@ -478,6 +544,10 @@ header ul button{
         font-size: 34px;
         width: 240px;
     }
+    header nav{
+        margin: 0px 25px;
+    }
+    
     
 }
 @media screen and (max-width:290px) {
