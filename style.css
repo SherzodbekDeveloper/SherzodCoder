@@ -388,7 +388,25 @@ header ul button{
     color: #070a0f;
 }
 
-
+.sidebar{
+    position: fixed;
+    top: 0;
+    right:0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.241);
+    box-shadow: -10px 0 -10px rgba(0, 0, 0, 0.1) ;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
 @media screen and (max-width:1100px) {
     .skil{
         grid-template-columns: auto auto;
