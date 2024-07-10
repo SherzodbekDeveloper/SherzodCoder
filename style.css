@@ -409,6 +409,8 @@ header ul button{
 }
 ul li ion-icon{
     display: none;
+    color: white;
+    font-size: 40px;
 }
 .sidebar li{
     width: 100%;
