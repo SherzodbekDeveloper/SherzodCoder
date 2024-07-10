@@ -432,7 +432,9 @@ ul li ion-icon{
     
 }
 @media screen and (max-width:1000px) {
-   
+   ul li ion-icon{
+    display: block;
+   }
     .teks{
         display: block;
         text-align: center;
