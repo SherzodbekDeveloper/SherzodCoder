@@ -17,25 +17,25 @@
     <header id="home">
         <div class="back">
             <nav>
-                <div class="logo">
-                    <a href="">SherzodDev🧑🏻‍💻</a>
-                </div>
-                <ul class="sidebar">
-                    <li> <a href="#home">Home</a></li>
-                    <li> <a href="#about">About</a></li>
-                    <li> <a href="#skills">Skills</a></li>
-                    <li> <a href="#projects">Projects</a></li>
-                    <li> <a href="">Resume</a></li>
-                    <button><a href="#contact">Contact</a></button>
+                <ul class="sidebar" id="sidebar"> 
+                    <li onclick="hideSidebar()">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </li>
+                    <li><a href="">SherzodDev</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Home</a></li>
                 </ul>
-                <li> <a href="#home">Home</a></li>
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#skills">Skills</a></li>
-                <li> <a href="#projects">Projects</a></li>
-                <li> <a href="">Resume</a></li>
-                <button><a href="#contact">Contact</a></button>
                 <ul>
-
+                    <li><a href="">SherzodDev</a></li>
+                    <li class="hide"><a href="">Home</a></li>
+                    <li class="hide"><a href="">Home</a></li>
+                    <li class="hide"><a href="">Home</a></li>
+                    <li class="hide"><a href="">Home</a></li>
+                    <li id="click" onclick="showSidebar()">  
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </li>
                 </ul>
             </nav>
         </div>
