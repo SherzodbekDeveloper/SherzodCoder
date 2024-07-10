@@ -404,6 +404,9 @@ header ul button{
     backdrop-filter: blur(10px);
     justify-content: flex-start;
 }
+ul li ion-icon{
+    display: none;
+}
 .sidebar li{
     width: 100%;
 }
