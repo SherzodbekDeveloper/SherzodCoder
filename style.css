@@ -17,13 +17,16 @@ header nav{
     display: flex;
     padding: 10px 0px;
     position: fixed;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     border-bottom: 0.1px solid white;
     top: 0;
     
     left: 0;
     
+}
+nav li :first-child{
+    margin: auto;
 }
 
 header{
