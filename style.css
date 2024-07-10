@@ -25,6 +25,37 @@ header nav{
     left: 0;
     
 }
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+nav li {
+    height: 50px;
+    
+}
+ul li ion-icon{
+   margin-top: 10px;
+   margin-right: 20px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     color: black;
+}
+
+
+
+
+
 nav li :first-child{
     margin: auto;
 }
